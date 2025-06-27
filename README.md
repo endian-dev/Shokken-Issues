@@ -112,7 +112,7 @@ While this repository is for issue tracking only, we appreciate your feedback an
 ## 📞 Support
 
 ### Community Support
-- **GitHub Discussions**: [Visit our Discussions](https://github.com/endian-dev/Shokken/discussions) - For questions, ideas, and general discussions
+- **GitHub Discussions**: [Visit our Discussions](https://github.com/endian-dev/Shokken-Issues/discussions) - For questions, ideas, and general discussions
 - **Community Forum**: [community.shokken.rsvp](https://community.shokken.rsvp) - Browse existing topics before posting
 - **Email Support**: [support@shokken.rsvp](mailto:support@shokken.rsvp) - Direct support inquiries
 
