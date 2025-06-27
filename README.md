@@ -2,7 +2,7 @@
 
 Welcome to the public issue tracker for Shokken.
 
-## What is Shokken?
+## ℹ️ What is Shokken?
 
 Shokken is a buzzer/pager system replacement for busy boutique restaurants. It allows hosts to enter guests in virtual waitlists and notify them by Email/SMS when they are ready to be seated.
 
