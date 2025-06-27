@@ -46,11 +46,6 @@ jobs:
             - We'll add appropriate labels and priority
             - You'll be notified of any updates or questions
             
-            **While you wait:**
-            - Check out our [documentation](https://github.com/endian-dev/Shokken-Issues/tree/main/docs)
-            - Browse other [open issues](https://github.com/${context.repo.owner}/${context.repo.repo}/issues) to see if you can help
-            - Join our [community discussions](https://github.com/${context.repo.owner}/${context.repo.repo}/discussions)
-            
             Thanks again for contributing to making our project better! 🎉`;
             
             await github.rest.issues.createComment({
