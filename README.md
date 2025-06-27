@@ -4,7 +4,7 @@ Welcome to the public issue tracker for Shokken.
 
 ## What is Shokken?
 
-Shokken is a physical pager replacement for busy boutique restaurants. It allows hosts to enter guests in virtual waitlists and notify them by Email/SMS when they are ready to be seated.
+Shokken is a buzzer/pager system replacement for busy boutique restaurants. It allows hosts to enter guests in virtual waitlists and notify them by Email/SMS when they are ready to be seated.
 
 It works on your existing phone or tablet and takes minutes to set up.
 
@@ -25,7 +25,7 @@ Before creating a new issue, please:
 
 [**Create New Issue →**](https://github.com/endian-dev/Shokken-Issues/issues/new/choose)
 
-For those without authenticated Github access, you can report the issue on the [Google Groups](https://groups.google.com/u/1/a/shokken.rsvp/g/shokken-alpha-testers).
+For those without authenticated GitHub access, you can report the issue on the [Google Groups](https://groups.google.com/u/1/a/shokken.rsvp/g/shokken-alpha-testers).
 
 ## 💬 Community Discussions
 
@@ -34,20 +34,20 @@ Before creating a new discussion, please:
 2. [Choose the right template](https://github.com/endian-dev/Shokken-Issues/discussions/new/choose) for your discussion type
 3. **Provide detailed information** to facilitate community discussion
 
-[**Create New Issue →**](https://github.com/endian-dev/Shokken-Issues/discussions/new/choose)
+[**Create New Discussion →**](https://github.com/endian-dev/Shokken-Issues/discussions/new/choose)
 
-For those without authenticated Github access, you can start a discussion on the [Google Groups](https://groups.google.com/u/1/a/shokken.rsvp/g/shokken-alpha-testers).
+For those without authenticated GitHub access, you can start a discussion on the [Google Groups](https://groups.google.com/u/1/a/shokken.rsvp/g/shokken-alpha-testers).
 
 ## ❓ Frequently Asked Questions
 
 ### Is Shokken free?
-Shokken is free to test. Once it hits the market, Shokken will be free to start with Email notifications for guests. To enable SMS notification, a competitive subscription plan will be available.
+Shokken is free to test. Once it hits the market, Shokken will be free to start with Email notifications for guests. To enable SMS notifications, a competitive subscription plan will be available.
 
 ### The app is asking me to pay to subscribe. I thought testing is free?
-- Purchases in the test app are test purchases and will not charge your credit card
-- Purchases are valid for just a few minutes per billing cycle
-- The subscription will usually cancel itself after just a few hours
-- You will receive subscription emails from Google Play Store and Apple App Store as if you made a real purchase. However, Google and Apple will mark them as test purchases
+- **You will NOT be charged** - All purchases in the test app are simulated
+- Test subscriptions expire quickly (minutes instead of months)
+- Test subscriptions auto-cancel within a few hours
+- You'll receive confirmation emails from Google/Apple marked as "TEST" - these are not real charges
 
 ### Can I use Shokken offline?
 No. Shokken requires a constant internet connection to function.
