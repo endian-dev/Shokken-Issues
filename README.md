@@ -4,7 +4,7 @@ Welcome to the public issue tracker for Shokken.
 
 ## What is Shokken?
 
-Shokken is a physical pager replacement for busy boutique restaurants. It allows hosts to enter guests in virtual waitlists and notify them by email/SMS when they are ready to be seated.
+Shokken is a physical pager replacement for busy boutique restaurants. It allows hosts to enter guests in virtual waitlists and notify them by Email/SMS when they are ready to be seated.
 
 It works on your existing phone or tablet and takes minutes to set up.
 
@@ -74,9 +74,7 @@ View our project boards to see issue and feature progress:
 ### Community Support
 - **GitHub Discussions**: [Visit our Discussions](https://github.com/endian-dev/Shokken-Issues/discussions) - For questions, ideas, and general discussions
 - **Email Support**: [support@shokken.rsvp](mailto:support@shokken.rsvp) - Direct support inquiries
-
-### Resources
-- **Blog**: [blog.shokken.rsvp](https://blog.shokken.rsvp) - Updates and announcements
+- **Blog**: [endian.dev](https://endian.dev) - Developer updates and announcements
 - **Issue Guidelines**: [Detailed reporting guide](docs/ISSUE_GUIDELINES.md) - How to write effective issue reports
 
 ## 🔒 Security
