@@ -1,0 +1,45 @@
+name: Issue Labeler
+
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  label:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Label issues based on content
+        uses: github/issue-labeler@v3.4
+        with:
+          configuration-path: .github/issue-labeler.yml
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Add platform labels
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const body = issue.body.toLowerCase();
+            const labels = [];
+            
+            // Check for platform mentions
+            if (body.includes('android')) labels.push('android');
+            if (body.includes('ios')) labels.push('ios');
+            if (body.includes('desktop')) labels.push('desktop');
+            if (body.includes('web')) labels.push('web');
+            
+            // Check for priority indicators
+            if (body.includes('crash') || body.includes('data loss')) {
+              labels.push('P0-critical');
+            }
+            
+            if (labels.length > 0) {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                labels: labels
+              });
+            }

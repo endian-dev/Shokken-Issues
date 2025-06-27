@@ -1,0 +1,47 @@
+name: Mark stale issues
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Run daily at midnight
+  workflow_dispatch:  # Allow manual triggering
+
+permissions:
+  issues: write
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v9
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          
+          # Issue configuration
+          stale-issue-message: |
+            This issue has been automatically marked as stale because it has not had recent activity. It will be closed in 7 days if no further activity occurs.
+            
+            If this issue is still relevant, please:
+            - Comment with any updates
+            - Add more information if requested
+            - Remove the stale label
+            
+            Thank you for your contributions!
+          
+          close-issue-message: |
+            This issue has been automatically closed due to inactivity. If you still experience this problem or need this feature, please open a new issue with updated information.
+          
+          days-before-issue-stale: 60
+          days-before-issue-close: 7
+          stale-issue-label: 'stale'
+          
+          # Don't mark as stale if they have these labels
+          exempt-issue-labels: 'P0-critical,P1-high,pinned,security'
+          
+          # Don't mark assigned issues as stale
+          exempt-all-assignees: true
+          
+          # Limit operations per run
+          operations-per-run: 100
+          
+          # Only process issues, not PRs (since this is issues-only repo)
+          only-issues: true

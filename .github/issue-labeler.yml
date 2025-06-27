@@ -1,0 +1,58 @@
+# Configuration for issue-labeler action
+# Add labels based on issue content
+
+# Bug-related keywords
+bug:
+  - 'error'
+  - 'crash'
+  - 'exception'
+  - 'broken'
+  - 'failing'
+  - 'not working'
+  - 'regression'
+
+# Feature-related keywords  
+feature:
+  - 'feature request'
+  - 'enhancement'
+  - 'add support'
+  - 'would be nice'
+  - 'should have'
+
+# Documentation keywords
+docs:
+  - 'documentation'
+  - 'readme'
+  - 'typo'
+  - 'unclear'
+  - 'confusing'
+  - 'example needed'
+
+# Performance keywords
+performance:
+  - 'slow'
+  - 'performance'
+  - 'latency'
+  - 'memory leak'
+  - 'optimization'
+  - 'freezing'
+  - 'lagging'
+
+# Security keywords
+security:
+  - 'security'
+  - 'vulnerability'
+  - 'exploit'
+  - 'sensitive data'
+  - 'encryption'
+  - 'authentication'
+
+# UI/UX keywords
+ui-ux:
+  - 'user interface'
+  - 'user experience'
+  - 'design'
+  - 'layout'
+  - 'styling'
+  - 'accessibility'
+  - 'responsive'
