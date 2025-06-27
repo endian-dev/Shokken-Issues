@@ -1,12 +1,20 @@
 # Shokken Issue Tracker
 
-Welcome to the public issue tracker for Shokken - a physical pager replacement for busy boutique restaurants. It works on your existing phone or tablet and takes less than 5 minutes to set up.
+Welcome to the public issue tracker for Shokken.
 
-## 📱 Platform Status
+## What is Shokken?
 
-- 🧪 **Android**: Alpha released (June 30, 2025)
-- 🚧 **iOS**: Alpha release planned for 2025
-- 🚧 **Desktop & Web**: Under consideration
+Shokken is a physical pager replacement for busy boutique restaurants. It allows hosts to enter guests in virtual waitlists and notify them by email/SMS when they are ready to be seated.
+
+It works on your existing phone or tablet and takes minutes to set up.
+
+## 🚀 Getting Started
+
+Android MVP is ready for testing!
+
+[Join on Android](https://play.google.com/store/apps/details?id=dev.endian.shokken) | [Join on Web](https://play.google.com/apps/testing/dev.endian.shokken)
+
+If you are unable to join the test due to permission issues, ensure that you have added yourself to this [Google Group](https://groups.google.com/g/shokken-alpha-testers).
 
 ## 🐛 Reporting Issues
 
@@ -15,25 +23,20 @@ Before creating a new issue, please:
 2. [Choose the right template](https://github.com/endian-dev/Shokken-Issues/issues/new/choose) for your issue type
 3. **Provide detailed information** to help us understand and reproduce the problem
 
-### Issue Types
-
-- **🐞 Bug Report** - Something isn't working as expected
-- **✨ Feature Request** - Suggest new functionality or improvements  
-- **📚 Documentation** - Report issues with documentation
-- **❓ Question** - Get help or clarification
-
 [**Create New Issue →**](https://github.com/endian-dev/Shokken-Issues/issues/new/choose)
 
-## 🎯 Milestones
+For those without authenticated Github access, you can report the issue on the [Google Groups](https://groups.google.com/u/1/a/shokken.rsvp/g/shokken-alpha-testers).
 
-We use milestones to track issues for upcoming releases. Check our [milestones](https://github.com/endian-dev/Shokken-Issues/milestones) to see what's planned.
+## 💬 Community Discussions
 
-## 📊 Projects
+Before creating a new discussion, please:
+1. [Search existing discussions](https://github.com/endian-dev/Shokken-Issues/discussions) to avoid duplicates
+2. [Choose the right template](https://github.com/endian-dev/Shokken-Issues/discussions/new/choose) for your discussion type
+3. **Provide detailed information** to facilitate community discussion
 
-View our project boards to see issue and feature progress:
-- [Bug Triage](https://github.com/endian-dev/Shokken-Issues/projects/1)
-- [Feature Roadmap](https://github.com/endian-dev/Shokken-Issues/projects/2)
-- [Current Sprint](https://github.com/endian-dev/Shokken-Issues/projects/3)
+[**Create New Issue →**](https://github.com/endian-dev/Shokken-Issues/discussions/new/choose)
+
+For those without authenticated Github access, you can start a discussion on the [Google Groups](https://groups.google.com/u/1/a/shokken.rsvp/g/shokken-alpha-testers).
 
 ## ❓ Frequently Asked Questions
 
@@ -48,6 +51,23 @@ Shokken is free to test. Once it hits the market, Shokken will be free to start 
 
 ### Can I use Shokken offline?
 No. Shokken requires a constant internet connection to function.
+
+## 📱 Platform Status
+
+- 🧪 **Android**: Alpha released (June 30, 2025)
+- 🚧 **iOS**: Alpha release planned for 2025
+- 🚧 **Desktop & Web**: Under consideration
+
+## 🎯 Milestones
+
+We use milestones to track issues for upcoming releases. Check our [milestones](https://github.com/endian-dev/Shokken-Issues/milestones) to see what's planned.
+
+## 📊 Projects
+
+View our project boards to see issue and feature progress:
+- [Bug Triage](https://github.com/endian-dev/Shokken-Issues/projects/1)
+- [Feature Roadmap](https://github.com/endian-dev/Shokken-Issues/projects/2)
+- [Current Sprint](https://github.com/endian-dev/Shokken-Issues/projects/3)
 
 ## 📞 Support
 
