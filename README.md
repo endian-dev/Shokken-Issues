@@ -22,7 +22,7 @@ Before creating a new issue, please:
 - **📚 Documentation** - Report issues with documentation
 - **❓ Question** - Get help or clarification
 
-[**Create New Issue →**](https://github.com/yourusername/yourproject-issues/issues/new/choose)
+[**Create New Issue →**](https://github.com/endian-dev/Shokken-Issues/issues/new/choose)
 
 ## 📋 Issue Guidelines
 
@@ -70,14 +70,14 @@ Before creating a new issue, please:
 
 ## 🎯 Milestones
 
-We use milestones to track issues for upcoming releases. Check our [milestones](https://github.com/yourusername/yourproject-issues/milestones) to see what's planned.
+We use milestones to track issues for upcoming releases. Check our [milestones](https://github.com/endian-dev/Shokken-Issues/milestones) to see what's planned.
 
 ## 📊 Projects
 
 View our project boards to see issue progress:
-- [Bug Triage](https://github.com/yourusername/yourproject-issues/projects/1)
-- [Feature Roadmap](https://github.com/yourusername/yourproject-issues/projects/2)
-- [Current Sprint](https://github.com/yourusername/yourproject-issues/projects/3)
+- [Bug Triage](https://github.com/endian-dev/Shokken-Issues/projects/1)
+- [Feature Roadmap](https://github.com/endian-dev/Shokken-Issues/projects/2)
+- [Current Sprint](https://github.com/endian-dev/Shokken-Issues/projects/3)
 
 ## ❓ Frequently Asked Questions
 
@@ -95,13 +95,13 @@ No. Shokken requires a constant internet connection to function.
 
 ### How do I report a bug?
 1. Check [Issue Guidelines](docs/ISSUE_GUIDELINES.md) first
-2. [Create a new issue](https://github.com/yourusername/yourproject-issues/issues/new/choose)
+2. [Create a new issue](https://github.com/endian-dev/Shokken-Issues/issues/new/choose)
 3. Use the bug report template
 4. Include all requested information
 
 ### How can I suggest a feature?
 - Check existing requests first
-- [Create a new feature request](https://github.com/yourusername/yourproject-issues/issues/new/choose)
+- [Create a new feature request](https://github.com/endian-dev/Shokken-Issues/issues/new/choose)
 - Provide use cases and examples
 - Vote on existing feature requests
 
@@ -112,7 +112,7 @@ While this repository is for issue tracking only, we appreciate your feedback an
 ## 📞 Support
 
 ### Community Support
-- **GitHub Discussions**: [Visit our Discussions](https://github.com/yourusername/yourproject/discussions) - For questions, ideas, and general discussions
+- **GitHub Discussions**: [Visit our Discussions](https://github.com/endian-dev/Shokken/discussions) - For questions, ideas, and general discussions
 - **Community Forum**: [community.shokken.rsvp](https://community.shokken.rsvp) - Browse existing topics before posting
 - **Email Support**: [support@shokken.rsvp](mailto:support@shokken.rsvp) - Direct support inquiries
 

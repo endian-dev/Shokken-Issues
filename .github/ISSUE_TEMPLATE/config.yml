@@ -1,11 +1,11 @@
 blank_issues_enabled: false
 contact_links:
   - name: Security Vulnerability
-    url: mailto:security@yourproject.com
+    url: mailto:security@shokken.rsvp
     about: Please report security vulnerabilities privately via email
   - name: Community Support
-    url: https://github.com/yourusername/yourproject/discussions
+    url: https://github.com/endian-dev/Shokken/discussions
     about: Please ask and answer questions in our community discussions
   - name: Documentation
-    url: https://yourproject.com/docs
+    url: https://github.com/endian-dev/Shokken-Issues/tree/main/docs
     about: Check our documentation for guides and FAQs
