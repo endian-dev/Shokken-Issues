@@ -1,3 +1,5 @@
+[![Watch the video](https://img.youtube.com/vi/bbUm5FOyRb0/maxresdefault.jpg)](https://www.youtube.com/watch?v=bbUm5FOyRb0)
+
 # Shokken Issue Tracker
 
 Welcome to the public issue tracker for Shokken.
