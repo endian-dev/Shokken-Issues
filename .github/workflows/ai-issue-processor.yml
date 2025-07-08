@@ -1,0 +1,204 @@
+name: AI Issue Processor
+
+on:
+  issues:
+    types: [opened, edited]
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: 'Issue number to process (leave empty to process all open issues)'
+        required: false
+        type: string
+      process_all:
+        description: 'Process all open issues (ignored if issue_number is provided)'
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  process-issues:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: read
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: |
+          npm init -y
+          npm install @actions/core @actions/github openai
+
+      - name: Process Issues with AI
+        uses: actions/github-script@v7
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        with:
+          script: |
+            const { OpenAI } = require('openai');
+            const openai = new OpenAI({
+              apiKey: process.env.OPENAI_API_KEY
+            });
+
+            // Helper function to determine if an issue was already processed
+            function wasProcessed(issue) {
+              return issue.labels.some(label => label.name === 'ai-processed');
+            }
+
+            // Helper function to extract issue type from content
+            async function analyzeIssue(title, body) {
+              const prompt = `Analyze this GitHub issue and provide:
+              1. The issue type (bug, feature, docs, or question)
+              2. A properly formatted title following these conventions:
+                 - Bug Reports: [BUG] <description>
+                 - Feature Requests: [FEATURE] <description>
+                 - Documentation: [DOCS] <description>
+                 - Questions: [QUESTION] <description>
+              3. Relevant labels from this list: bug, feature, docs, question, performance, security, ui-ux, android, ios, desktop, web, P0-critical, P1-high, P2-medium, P3-low
+
+              Current title: ${title}
+              Body: ${body}
+
+              Respond in JSON format:
+              {
+                "type": "bug|feature|docs|question",
+                "formatted_title": "properly formatted title",
+                "labels": ["label1", "label2"],
+                "reasoning": "brief explanation"
+              }`;
+
+              try {
+                const response = await openai.chat.completions.create({
+                  model: "gpt-4o-mini",
+                  messages: [{ role: "user", content: prompt }],
+                  temperature: 0.3,
+                  response_format: { type: "json_object" }
+                });
+
+                return JSON.parse(response.choices[0].message.content);
+              } catch (error) {
+                console.error('Error calling OpenAI:', error);
+                return null;
+              }
+            }
+
+            // Determine which issues to process
+            let issuesToProcess = [];
+            
+            if (context.eventName === 'issues') {
+              // Process the issue that triggered the workflow
+              issuesToProcess = [context.payload.issue];
+            } else if (context.eventName === 'workflow_dispatch') {
+              const issueNumber = context.payload.inputs?.issue_number;
+              const processAll = context.payload.inputs?.process_all === 'true';
+              
+              if (issueNumber) {
+                // Process specific issue
+                try {
+                  const { data: issue } = await github.rest.issues.get({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    issue_number: parseInt(issueNumber)
+                  });
+                  issuesToProcess = [issue];
+                } catch (error) {
+                  core.setFailed(`Failed to fetch issue #${issueNumber}: ${error.message}`);
+                  return;
+                }
+              } else if (processAll) {
+                // Process all open issues
+                const { data: issues } = await github.rest.issues.listForRepo({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  state: 'open',
+                  per_page: 100
+                });
+                issuesToProcess = issues.filter(issue => !issue.pull_request);
+              } else {
+                core.warning('No issues to process. Specify issue_number or set process_all to true.');
+                return;
+              }
+            }
+
+            // Process each issue
+            for (const issue of issuesToProcess) {
+              if (wasProcessed(issue)) {
+                console.log(`Skipping issue #${issue.number} - already processed`);
+                continue;
+              }
+
+              console.log(`Processing issue #${issue.number}: ${issue.title}`);
+              
+              const analysis = await analyzeIssue(issue.title, issue.body || '');
+              if (!analysis) {
+                console.error(`Failed to analyze issue #${issue.number}`);
+                continue;
+              }
+
+              console.log(`Analysis for issue #${issue.number}:`, analysis);
+
+              // Update issue title if needed
+              const currentTitle = issue.title;
+              const needsTitleUpdate = currentTitle !== analysis.formatted_title;
+              
+              if (needsTitleUpdate) {
+                await github.rest.issues.update({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  title: analysis.formatted_title
+                });
+                console.log(`Updated title for issue #${issue.number}`);
+              }
+
+              // Add labels
+              const existingLabels = issue.labels.map(l => l.name);
+              const newLabels = analysis.labels.filter(l => !existingLabels.includes(l));
+              
+              if (newLabels.length > 0) {
+                // Add AI-processed marker
+                newLabels.push('ai-processed');
+                
+                await github.rest.issues.addLabels({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  labels: newLabels
+                });
+                console.log(`Added labels to issue #${issue.number}: ${newLabels.join(', ')}`);
+              } else {
+                // Just add the ai-processed marker
+                await github.rest.issues.addLabels({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  labels: ['ai-processed']
+                });
+              }
+
+              // Add a comment about the processing
+              const comment = `### 🤖 Automated Processing Complete
+
+              ${needsTitleUpdate ? `**Title updated** to follow project conventions.` : ''}
+              ${newLabels.length > 1 ? `**Labels added**: ${newLabels.filter(l => l !== 'ai-processed').join(', ')}` : ''}
+              
+              ${analysis.reasoning}`;
+
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                body: comment
+              });
+
+              // Add delay to respect rate limits
+              await new Promise(resolve => setTimeout(resolve, 1000));
+            }
+
+            console.log(`Processed ${issuesToProcess.length} issue(s)`);
