@@ -29,7 +29,7 @@ Before creating a new issue, please:
 
 [**Create New Issue →**](https://github.com/endian-dev/Shokken-Issues/issues/new/choose)
 
-For those without authenticated GitHub access, you can report the issue on the [Google Groups](https://groups.google.com/u/1/a/shokken.rsvp/g/shokken-alpha-testers).
+For those without authenticated GitHub access, you can report the issue on the [Google Group](https://groups.google.com/u/1/a/shokken.rsvp/g/shokken-alpha-testers).
 
 ## 💬 Community Discussions
 
@@ -40,7 +40,7 @@ Before creating a new discussion, please:
 
 [**Create New Discussion →**](https://github.com/endian-dev/Shokken-Issues/discussions/new/choose)
 
-For those without authenticated GitHub access, you can start a discussion on the [Google Groups](https://groups.google.com/u/1/a/shokken.rsvp/g/shokken-alpha-testers).
+For those without authenticated GitHub access, you can start a discussion on the [Google Group](https://groups.google.com/u/1/a/shokken.rsvp/g/shokken-alpha-testers).
 
 ## ❓ Frequently Asked Questions
 
