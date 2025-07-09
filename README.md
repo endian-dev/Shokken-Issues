@@ -14,7 +14,7 @@ It works on your existing phone or tablet and takes minutes to set up.
 
 Android MVP is ready for testing!
 
-<a href="https://play.google.com/store/apps/details?id=dev.endian.shokken"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Google Play Download Badge" width="130"></a> or [Join on Web](https://play.google.com/apps/testing/dev.endian.shokken)
+<a href="https://play.google.com/store/apps/details?id=dev.endian.shokken"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Google Play Download Badge" width="130" align="bottom"></a> or [Join on Web](https://play.google.com/apps/testing/dev.endian.shokken)
 
 If you are unable to join the test due to permission issues, ensure that you have added yourself to this [Google Group](https://groups.google.com/g/shokken-alpha-testers).
 
