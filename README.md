@@ -1,5 +1,3 @@
-[![Watch the video](https://img.youtube.com/vi/bbUm5FOyRb0/maxresdefault.jpg)](https://www.youtube.com/watch?v=bbUm5FOyRb0)
-
 # Shokken Issue Tracker
 
 Welcome to the public issue tracker for Shokken.
@@ -12,13 +10,21 @@ It works on your existing phone or tablet and takes minutes to set up.
 
 ## 🚀 Getting Started
 
-Android MVP is ready for testing!
+### 🤖 Android
+
+Android Alpha track is available.
 
 <sub><a href="https://play.google.com/store/apps/details?id=dev.endian.shokken"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Google Play Download Badge" width="200"></a></sub>
 
 or [Join on Web](https://play.google.com/apps/testing/dev.endian.shokken)
 
 If you are unable to join the test due to permission issues, ensure that you have added yourself to this [Google Group](https://groups.google.com/g/shokken-alpha-testers).
+
+Original MVP is discarded. [Check my blog update](https://endian.dev/blog/2025/30/).
+
+### 🍎 iOS
+
+iOS Beta track will be available when Mr. Cook deems my app worthy.
 
 ## 🐛 Reporting Issues
 
