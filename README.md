@@ -4,7 +4,7 @@ Welcome to the public issue tracker for Shokken.
 
 ## ℹ️ What is Shokken?
 
-Shokken is a buzzer/pager system replacement for busy boutique restaurants. It allows hosts to enter guests in virtual waitlists and notify them by Email/SMS when they are ready to be seated.
+Shokken is a simple waitlist management tool. It allows hosts to enter guests in virtual waitlists and notify them by Email when they are ready to be serviced. It can be used by all establishments that are first-come first-serve such as restaurants, barber shops, dentist office, etc.
 
 It works on your existing phone or tablet and takes minutes to set up.
 
@@ -46,42 +46,18 @@ Before creating a new discussion, please:
 
 For those without authenticated GitHub access, you can start a discussion on the [Google Groups](https://groups.google.com/u/1/a/shokken.rsvp/g/shokken-alpha-testers).
 
-## ❓ Frequently Asked Questions
-
-### Is Shokken free?
-Shokken is free to test. Once it hits the market, Shokken will be free to start with Email notifications for guests. To enable SMS notifications, a competitive subscription plan will be available.
-
-### The app is asking me to pay to subscribe. I thought testing is free?
-- **You will NOT be charged** - All purchases in the test app are simulated
-- Test subscriptions expire quickly (minutes instead of months)
-- Test subscriptions auto-cancel within a few hours
-- You'll receive confirmation emails from Google/Apple marked as "TEST" - these are not real charges
-
-### Can I use Shokken offline?
-No. Shokken requires a constant internet connection to function.
-
 ## 📱 Platform Status
 
 - 🧪 **Android**: Alpha released (June 30, 2025)
 - 🚧 **iOS**: Alpha release planned for 2025
 - 🚧 **Desktop & Web**: Under consideration
 
-## 🎯 Milestones
-
-We use milestones to track issues for upcoming releases. Check our [milestones](https://github.com/endian-dev/Shokken-Issues/milestones) to see what's planned.
-
-## 📊 Projects
-
-View our project boards to see issue and feature progress:
-- [Bug Triage](https://github.com/endian-dev/Shokken-Issues/projects/1)
-- [Feature Roadmap](https://github.com/endian-dev/Shokken-Issues/projects/2)
-- [Current Sprint](https://github.com/endian-dev/Shokken-Issues/projects/3)
-
 ## 📞 Support
 
 ### Community Support
 - **GitHub Discussions**: [Visit our Discussions](https://github.com/endian-dev/Shokken-Issues/discussions) - For questions, ideas, and general discussions
-- **Email Support**: [support@shokken.rsvp](mailto:support@shokken.rsvp) - Direct support inquiries
+- **Discord**: [Discord Server](https://discord.gg/TWZ7TgEFTW) - For real-time discussions and hangout
+- **Email**: [support@shokken.rsvp](mailto:support@shokken.rsvp) - Direct support inquiries
 - **Blog**: [endian.dev](https://endian.dev) - Developer updates and announcements
 - **Issue Guidelines**: [Detailed reporting guide](docs/ISSUE_GUIDELINES.md) - How to write effective issue reports
 
