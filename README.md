@@ -4,7 +4,7 @@ Welcome to the public issue tracker for Shokken.
 
 ## ℹ️ What is Shokken?
 
-Shokken is a simple waitlist management tool. It allows hosts to enter guests in virtual waitlists and notify them by Email when they are ready to be serviced. It can be used by all establishments that are first-come first-serve such as restaurants, barber shops, dentist office, etc.
+Shokken is a simple waitlist management tool. It allows hosts to enter guests in virtual waitlists and notify them by Email when they are ready to be serviced. It can be used by all establishments that are first-come first-serve such as restaurants, barber shops, dentist offices, etc.
 
 It works on your existing phone or tablet and takes minutes to set up.
 
