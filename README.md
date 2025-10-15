@@ -12,15 +12,14 @@ It works on your existing phone or tablet and takes minutes to set up.
 
 ### 🤖 Android
 
-Android Alpha track is available.
+Android Alpha track is available. To access it, you need to
+
+1. Ensure you are a member of this [Google Group](https://groups.google.com/g/shokken-alpha-testers).
+1. Accept the [testing invite here](https://play.google.com/apps/testing/dev.endian.shokken).
+
+Now you are ready to hit the GET IT ON Google Play button below to download the app.
 
 <sub><a href="https://play.google.com/store/apps/details?id=dev.endian.shokken"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Google Play Download Badge" width="200"></a></sub>
-
-or [Join on Web](https://play.google.com/apps/testing/dev.endian.shokken)
-
-If you are unable to join the test due to permission issues, ensure that you have added yourself to this [Google Group](https://groups.google.com/g/shokken-alpha-testers).
-
-Original MVP is discarded. [Check my blog update](https://endian.dev/blog/2025/30/).
 
 ### 🍎 iOS
 
@@ -50,7 +49,7 @@ For those without authenticated GitHub access, you can start a discussion on the
 
 ## 📱 Platform Status
 
-- 🧪 **Android**: Alpha released (June 30, 2025)
+- 🧪 **Android**: Alpha released (Oct 20, 2025).
 - 🚧 **iOS**: Alpha release planned for 2025
 - 🚧 **Desktop & Web**: Under consideration
 
