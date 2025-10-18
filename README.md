@@ -12,6 +12,8 @@ It works on your existing phone or tablet and takes minutes to set up.
 
 ### 🤖 Android
 
+[![Watch the Shokken Android alpha walkthrough](https://ytcards.demolab.com/?id=d1q48gEj7qk&title=Shokken+Android+Alpha+Walkthrough&lang=en&timestamp=0&background_color=0d1117&title_color=ffffff&subtitle_color=9ca3af&width=560)](https://www.youtube.com/watch?v=d1q48gEj7qk "Shokken Android Alpha Walkthrough")
+
 Android Alpha track is available. To access it, you need to
 
 1. Ensure you are a member of this [Google Group](https://groups.google.com/g/shokken-alpha-testers).
