@@ -68,6 +68,10 @@ For those without authenticated GitHub access, you can start a discussion on the
 
 For security vulnerabilities, please **DO NOT** create a public issue. See our [Security Policy](SECURITY.md) for responsible disclosure procedures.
 
+## 🔐 Privacy
+
+Learn how we handle host and guest data in our [Privacy Policy](PRIVACY.md).
+
 ## 📜 Code of Conduct
 
 Please read and follow our [Code of Conduct](CODE_OF_CONDUCT.md) to keep our community welcoming and respectful.
