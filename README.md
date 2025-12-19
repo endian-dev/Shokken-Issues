@@ -29,7 +29,7 @@ iOS Alpha track is available. To access it, you need to
 
 1. Accept the [test invite on an iOS device](https://testflight.apple.com/join/Qgf2Ew6m) and follow its instructions.
 
-Once you are ready, hit the Download on the App Store button below to install via TestFlight.
+If you are not automatically directed to access the app, hit the Download on the App Store button below to install via TestFlight.
 
 <sub><a href="https://testflight.apple.com/join/Qgf2Ew6m"><img src="assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on the App Store badge" width="200"></a></sub>
 
@@ -58,7 +58,7 @@ For those without authenticated GitHub access, you can start a discussion on the
 ## 📱 Platform Status
 
 - 🧪 **Android**: Alpha released (Oct 20, 2025).
-- 🧪 **iOS**: Alpha released (December 18, 2025).
+- 🧪 **iOS**: Alpha released (Dec 18, 2025).
 - 🚧 **Desktop & Web**: Under consideration
 
 ## 📞 Support
