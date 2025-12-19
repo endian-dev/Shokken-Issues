@@ -25,7 +25,9 @@ Now you are ready to hit the GET IT ON Google Play button below to download the 
 
 ### 🍎 iOS
 
-iOS Beta track will be available when Mr. Cook deems my app worthy.
+Android Alpha track is available. To access it, you need to
+
+1. Accept the [test invite on an iOS device](https://testflight.apple.com/join/Qgf2Ew6m) and follow its instructions.
 
 ## 🐛 Reporting Issues
 
@@ -52,7 +54,7 @@ For those without authenticated GitHub access, you can start a discussion on the
 ## 📱 Platform Status
 
 - 🧪 **Android**: Alpha released (Oct 20, 2025).
-- 🚧 **iOS**: Alpha release planned for 2025
+- 🚧 **iOS**: Alpha released (December 18, 2025).
 - 🚧 **Desktop & Web**: Under consideration
 
 ## 📞 Support
