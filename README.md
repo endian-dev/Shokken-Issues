@@ -54,7 +54,7 @@ For those without authenticated GitHub access, you can start a discussion on the
 ## 📱 Platform Status
 
 - 🧪 **Android**: Alpha released (Oct 20, 2025).
-- 🚧 **iOS**: Alpha released (December 18, 2025).
+- 🧪 **iOS**: Alpha released (December 18, 2025).
 - 🚧 **Desktop & Web**: Under consideration
 
 ## 📞 Support
