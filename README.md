@@ -25,9 +25,13 @@ Now you are ready to hit the GET IT ON Google Play button below to download the 
 
 ### 🍎 iOS
 
-Android Alpha track is available. To access it, you need to
+iOS Alpha track is available. To access it, you need to
 
 1. Accept the [test invite on an iOS device](https://testflight.apple.com/join/Qgf2Ew6m) and follow its instructions.
+
+Once you are ready, hit the Download on the App Store button below to install via TestFlight.
+
+<sub><a href="https://testflight.apple.com/join/Qgf2Ew6m"><img src="assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on the App Store badge" width="200"></a></sub>
 
 ## 🐛 Reporting Issues
 
