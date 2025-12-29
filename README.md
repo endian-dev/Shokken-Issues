@@ -2,6 +2,9 @@
 
 Welcome to the public issue tracker for Shokken.
 
+> [!WARNING]
+> **SMS notifications are currently unavailable and will not send.** We have not yet been approved for toll-free SMS sending capability (expected approval: **Q1 2026**). All other functions are OK to test.
+
 ## ℹ️ What is Shokken?
 
 Shokken is a simple waitlist management tool. It allows hosts to enter guests in virtual waitlists and notify them by Email when they are ready to be serviced. It can be used by all establishments that are first-come first-serve such as restaurants, barber shops, dentist offices, etc.

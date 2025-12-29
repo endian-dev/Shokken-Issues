@@ -8,6 +8,8 @@ body:
       value: |
         Thanks for taking the time to report this bug! Please fill out the information below to help us understand and reproduce the issue.
         
+        **Heads up:** SMS notifications are currently unavailable and will not send (pending toll-free SMS approval; expected Q1 2026). Email notifications and other features are OK to test.
+        
   - type: dropdown
     id: platform
     attributes:
