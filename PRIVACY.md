@@ -2,7 +2,7 @@
 
 **Effective date:** December 2025
 
-Endian Dev ("Shokken," "we," "our") provides the Shokken waitlist management application and this public issue tracker. This Privacy Policy explains how we collect, use, share, and protect personal information when hosts and their teams use our services, when guests are added to waitlists via the app, and when anyone interacts with our support channels.
+Endian Tribe LLC (doing business as "Shokken," "we," "our") provides the Shokken waitlist management application and this public issue tracker. This Privacy Policy explains how we collect, use, share, and protect personal information when hosts and their teams use our services, when guests are added to waitlists via the app, and when anyone interacts with our support channels.
 
 By using Shokken you agree to the practices described below. If you do not agree, please discontinue use and contact us at [privacy@shokken.rsvp](mailto:privacy@shokken.rsvp).
 
@@ -85,7 +85,10 @@ We may update this Privacy Policy to reflect operational, legal, or regulatory c
 ## 11. Contact Us
 Questions, requests, or complaints about privacy can be sent to:
 
-**Endian Dev**  
+**Endian Tribe LLC**  
+732 S 6th ST, STE N  
+Las Vegas, NV 89101  
+United States  
 Email: [privacy@shokken.rsvp](mailto:privacy@shokken.rsvp)
 
 We will review every request and work with you to resolve concerns.
